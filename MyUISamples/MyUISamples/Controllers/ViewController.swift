@@ -38,7 +38,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         case 0:
             performSegue(withIdentifier: "sampleOne", sender: self)
         case 1:
-            print("At index \(indexPath.row)")
+            performSegue(withIdentifier: "differentSizeViewId", sender: self)
         default:
             performSegue(withIdentifier: "sampleOne", sender: self)
         }

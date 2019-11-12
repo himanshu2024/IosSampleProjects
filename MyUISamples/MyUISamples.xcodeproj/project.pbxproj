@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		864F1ECD23533FD900C7EABC /* OneSampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864F1ECC23533FD900C7EABC /* OneSampleCollectionViewCell.swift */; };
+		86D18A6B23784BA900EE774C /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D18A6A23784BA900EE774C /* PinterestLayout.swift */; };
+		86DC931F23783BAE000BBD0A /* DifferentSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DC931E23783BAE000BBD0A /* DifferentSizeViewController.swift */; };
 		86E43F57234F57060019E48D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E43F56234F57060019E48D /* AppDelegate.swift */; };
 		86E43F59234F57060019E48D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E43F58234F57060019E48D /* SceneDelegate.swift */; };
 		86E43F5B234F57060019E48D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E43F5A234F57060019E48D /* ViewController.swift */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		864F1ECC23533FD900C7EABC /* OneSampleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		86D18A6A23784BA900EE774C /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		86DC931E23783BAE000BBD0A /* DifferentSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifferentSizeViewController.swift; sourceTree = "<group>"; };
 		86E43F53234F57060019E48D /* MyUISamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyUISamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E43F56234F57060019E48D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86E43F58234F57060019E48D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		864F1ECB23533F7B00C7EABC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				864F1ECC23533FD900C7EABC /* OneSampleCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		86D18A6923784B6200EE774C /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				86D18A6A23784BA900EE774C /* PinterestLayout.swift */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
 		86E43F4A234F57060019E48D = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +83,8 @@
 		86E43F55234F57060019E48D /* MyUISamples */ = {
 			isa = PBXGroup;
 			children = (
+				86D18A6923784B6200EE774C /* CustomLayout */,
+				864F1ECB23533F7B00C7EABC /* Cells */,
 				86F3F18F2353307D004D64AA /* Controllers */,
 				86F3F18E23532E0B004D64AA /* Views */,
 				86E43F56234F57060019E48D /* AppDelegate.swift */,
@@ -85,6 +109,7 @@
 			children = (
 				86E43F5A234F57060019E48D /* ViewController.swift */,
 				86F3F19323533926004D64AA /* SimpleCollectionViewViewController.swift */,
+				86DC931E23783BAE000BBD0A /* DifferentSizeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,10 +186,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				864F1ECD23533FD900C7EABC /* OneSampleCollectionViewCell.swift in Sources */,
 				86E43F5B234F57060019E48D /* ViewController.swift in Sources */,
 				86E43F57234F57060019E48D /* AppDelegate.swift in Sources */,
+				86D18A6B23784BA900EE774C /* PinterestLayout.swift in Sources */,
 				86E43F59234F57060019E48D /* SceneDelegate.swift in Sources */,
 				86F3F19423533926004D64AA /* SimpleCollectionViewViewController.swift in Sources */,
+				86DC931F23783BAE000BBD0A /* DifferentSizeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
